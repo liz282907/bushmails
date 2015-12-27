@@ -1,0 +1,98 @@
+.wrapper
+{
+	display: flex;
+	flex-direction:column;
+}
+.header{
+	height: 30px;
+}
+.middle{
+	flex:1;
+	display: flex;
+	flex-direction:row;
+	}
+#main_svg
+{
+	width: 900px;
+	height: 700px;
+	box-sizing:border-box;
+}
+#right_part
+{
+	padding-top: 50px;
+	padding-left: 10px;
+	flex:1;
+}
+.legend{
+	display: flex;
+	justify-content:center;
+}
+#chordcolor_legend,#outercolor_legend
+{
+	list-style-type: none;
+	display: inline-block;
+	flex:1;
+}
+
+.legend_text{width:100px;}
+#chordcolor_legend li,#outercolor_legend li
+{
+	display: inline-block;
+	border-top-width: 15px;
+	border-top-style: solid;
+	font-size: .8em;
+	text-align: right;
+	flex:1;
+	width: 15%;
+	min-width: 50px;
+}
+
+#year_label
+{
+	height: 400px;
+	width: 100%;
+	padding-right: 10%;
+	text-align: center;
+}
+.yeartext{
+	font-size: 10em;
+	font-weight: bold;
+	fill: #ddd;
+}
+
+.yeartext.hover
+{
+	fill:#aaa;
+}
+
+.yearoverlay
+{
+	fill:none;
+	pointer-events:all;
+	cursor: ew-resize;
+}
+
+
+.chords {
+  		fill-opacity: 1;
+  		/*stroke: #000;*/
+  		stroke-width: 3.5px;
+	}
+
+.chord_text
+{
+	font-size: 10px;
+	color: black;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	fill:yellow;
+	fill-opacity:1;
+}
+
+
+
+
